@@ -1,14 +1,16 @@
 package pl.gornik;
 
-public class Vechicle {
+public class Vehicle {
     private String plateNumber;
     private String brand;
     private String model;
+    private Color color;
 
-    public Vechicle(String plateNumber, String brand, String model) {
+    public Vehicle(String plateNumber, String brand, String model, Color color) {
         this.plateNumber = plateNumber;
         this.brand = brand;
         this.model = model;
+        this.color = color;
     }
 
     public String getPlateNumber() {
@@ -23,8 +25,12 @@ public class Vechicle {
         return model;
     }
 
+    public Color getColor() {
+        return color;
+    }
+
     @Override
     public String toString() {
-        return "PlateNumber: "+getPlateNumber() +" | Brand: "+getBrand()+" | Model: "+getModel();
+        return "PlateNumber: " + plateNumber + " | Brand: " + brand + " | Model: " + model + " | Color: " + color;
     }
 }

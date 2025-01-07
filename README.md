@@ -43,10 +43,7 @@ System wykorzystuje:
 
 ## 🚀 Jak Uruchomić
 
-1. `git clone [url-repozytorium]`
-2. `javac *.java`
-3. `java CarParkingManagementSystem`
-4. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie
+ `git clone https://github.com/MardoX3/CarParkingManagementSystem.git`
 
 ## 📁 Struktura Plików
 

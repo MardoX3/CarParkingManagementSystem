@@ -78,9 +78,3 @@ username,password,balance,plateNumber,brand,model,color
   - Model
   - Kolor
 ---
-
-<div align="center">
-  
-**Made with ❤️ by Java Developers**
-
-</div>
